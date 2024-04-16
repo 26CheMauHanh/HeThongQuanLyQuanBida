@@ -1,0 +1,82 @@
+@charset "UTF-8";
+ /* Thiết lập kiểu cho các phần tử HTML */
+ body {
+	background: #f5f5f5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ }
+form {
+    margin: 0 20%;
+}
+
+ label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: system-ui;
+    font-weight: 500;
+    color: #212529;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    color: azure;
+    margin-bottom: 10px;
+    padding: 8px;
+    background: #ccc;
+    width: 96%;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.addPd_container {
+	margin: auto;
+    color: #1e1d1d;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form_add {
+	width: 650px;
+}
+ .title_addPr {
+    text-align: center  ;
+    font-size: 32px;
+    font-family: cursive;
+    color: #b16647;
+ }
+.addPr_btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px;
+}
+
+
+button[type="button"] {
+    background-color: #b33d22;
+    color: white;
+    padding: 10px 44px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
